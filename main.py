@@ -34,6 +34,7 @@ def update(screen, cells, size, with_progress=False):
 
 def main():
     pygame.init()
+    pygame.display.set_caption("Tendi's Game of Life")
     screen = pygame.display.set_mode((80 * SIZE, 60 * SIZE))
 
     cells = np.zeros((60, 80))
