@@ -8,6 +8,7 @@ COLOR_DIE_NEXT = (170, 170, 170)
 COLOR_ALIVE_NEXT = (255, 255, 255)
 SIZE = 10
 
+
 def update(screen, cells, size, with_progress=False):
     updated_cells = np.zeros((cells.shape[0], cells.shape[1]))
 
