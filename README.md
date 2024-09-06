@@ -1,5 +1,3 @@
-# Game-of-Life
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 <!--
@@ -8,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/mutendisambaza/Game-of-Life">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="imgs/logo.gif" alt="Logo" width="300">
   </a>
 
 <h3 align="center">THE GAME OF LIFE</h3>
@@ -58,7 +56,9 @@ Tendi's Game of Life is a digital implementation of John Conway's "Game of Life,
 
 The Game of Life consists of a grid of cells, each of which can be in one of two states: alive or dead. The simulation progresses in discrete time steps, and the state of each cell in the next generation depends on its current state and the states of its eight neighbors.
 <br>
-
+<div align="center">
+  <img src="imgs/game-screenshot.png" alt="Logo" width="500" align = "center">
+</div>
 
 <h3>Rules of the Game</h3> 
 
@@ -67,6 +67,10 @@ The Game of Life consists of a grid of cells, each of which can be in one of two
 - Overpopulation: A living cell with more than three living neighbors dies (as if by overpopulation).<br>
 - Reproduction: A dead cell with exactly three living neighbors becomes a live cell (as if by reproduction).<br>
 These simple rules give rise to surprisingly complex patterns over time, which can simulate processes such as birth, death, and survival.
+<div align="center">
+  <img src="imgs/gameofliferules.jpeg" alt="Logo" width="200">
+</div>
+
 
 
 <h3>Parameters</h3>
@@ -76,7 +80,9 @@ These simple rules give rise to surprisingly complex patterns over time, which c
 <br>
 
 <h3>Famous Configurations</h3>
-
+<div align="center">
+  <img src="imgs/famous.png" alt="Logo" width="800">
+</div>
 Some initial configurations in the Game of Life have become famous for their interesting behaviors:
 
 * <strong>Still Lifes:</strong> These patterns do not change from one generation to the next. Examples include the Block, Beehive, and Loaf.
